@@ -1,0 +1,403 @@
+body{
+    width: 1260px;
+    height: 880px;
+    margin: 53px 160px;
+    border-left: 160px;
+    border-right: 160px;
+    background-color: #edf2c5;
+    position: relative;
+    left: 6.33%;
+}
+
+header{
+  width: 940px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: stretch;
+}
+
+h1{
+  font-family: Arial;
+  font-size: 44px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.82;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+}
+
+h2{
+  width: 69px;
+  height: 23px;
+  font-family: Arial;
+  font-size: 16px;
+  font-weight: 900;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #edf2c5;
+}
+
+p{
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  color: #7d7d7d;
+  padding: 15px;
+  margin-top: -12px;
+  margin-bottom: -12px;
+
+}
+
+.topnav{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-content: flex-end;
+  height: 25px;
+}
+.topnav ul {
+  list-style-type: none;
+  padding: 0px none;
+}
+
+.topnav li{
+  display: inline;
+  margin: 0px none;
+}
+
+
+.btn_facebook {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.btn_instagram {
+  width: 25px;
+  height: 25px;
+  object-fit: contain;
+  margin-right: 10px;
+  position: relative;
+  top: 20px;
+}
+
+.line_login {
+  width: 1px;
+  height: 25px;
+  background-color: #778a50;
+  position: absolute;
+  margin-top: 5px;
+  top: 31px;
+  
+}
+
+.btn_LOGIN_box {
+  width: 60px;
+  height: 25px;
+  border: solid  1px #778a50;
+  padding: 4px;
+  border-radius: 3px;
+  margin-left: 15px;
+  position: relative;
+  top: 13px;
+}
+
+.LOGIN {
+  width: 46px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+}
+
+.btn_JOIN_box {
+  width: 49px;
+  height: 25px;
+  border: solid 1px #778a50;
+  padding: 4px;
+  border-radius: 3px;
+  margin-bottom: 100px;
+  margin-left: 10px;
+  position: relative;
+  top: 13px;
+
+}
+
+
+.JOIN {
+  width: 35px;
+  height: 15px;
+  font-family: Arial;
+  font-size: 14px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2.57;
+  letter-spacing: normal;
+  text-align: left;
+  color: #778a50;
+}
+
+
+.nav_box {
+    width: 940px;
+    height: 44px;
+    border-radius: 3px;
+    background-color: #778a50;
+    margin-top: -25px;
+    margin-bottom: 20px;
+  }
+  
+  .nav_box ul {
+    list-style-type: none;
+    padding-left: 30px;
+    padding-top: 5px;
+  }
+
+  .nav_box li{
+      display: inline;  
+      text-align: match-parent;
+  }
+
+
+  .Home {
+    width: 51px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+
+    border: left 30px; 
+
+
+  }
+
+  .about-us {
+    width: 80px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left: 60px;
+  }
+  
+  .Vagetablesnav {
+    width: 98px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left: 60px;
+  }
+
+  .onlinenav {
+    width: 56px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left: 60px;
+  }
+
+  .contactnav {
+    width: 69px;
+    height: 23px;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 900;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2.25;
+    letter-spacing: normal;
+    text-align: left;
+    color: #edf2c5;
+    padding-left: 60px;
+  }
+  
+  
+
+.img_main_pumpkin {
+    width: 940px;
+    height: 448px;
+    object-fit: contain;
+  }
+
+  .Vestablepic{
+    display: flex inline;
+    margin-top: 15px;
+    align-content: space-between;
+    justify-content: space-between;
+    
+
+
+  }
+
+  .img_vegetables_pepper {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    border-radius: 3px;
+  }
+  
+
+  .img_vegetables_carrot {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-left: 8px;
+    border-radius: 3px;
+  }
+  
+  .img_vegetables_corn {
+    width: 140px;
+    height: 140px;
+    object-fit: contain;
+    margin-left: 8px;
+    border-radius: 3px;
+  }
+
+
+.VegeContactbox{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-content: space-between;
+  width: 940px;
+
+}
+
+
+
+aside{
+  width: 444px;
+  height: 140px;
+  background-color: #f7fbda;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  text-align: left;
+  margin: none;
+  
+
+
+}
+
+.body_box_vegetables {
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+
+}
+.vegetableetext{
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+.body_box_contact {
+  width: 444px;
+  height: 45px;
+  border-radius: 3px;
+  background-color: #778a50;
+
+}
+
+.contacttext{
+  margin-left: 30px;
+  margin-top: 20px;
+  padding-top: 5px;
+}
+
+.body_box_contact_text {
+  width: 444px;
+  height: 140px;
+  background-color: #f7fbda;
+  margin-top: 26px;
+  border-radius: 3px;
+}
+
+.line_contact_text {
+  width: 414px;
+  height: 0.1px;
+  background-color: #7d7d7d;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+
+
+.box_footer {
+  width: 1260px;
+  height: 60px;
+  background-color: #778a50;
+  margin-top: 35px;
+  position: relative;
+  left: -10%;
+  border-radius: 3px;
+}
+
+.footer{
+  width: 310px;
+  height: 14px;
+  font-family: Arial;
+  font-size: 12px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #edf2c5;
+  text-align:center; 
+  position: relative;
+  left: 35%;
+  top: 50%;
+}
